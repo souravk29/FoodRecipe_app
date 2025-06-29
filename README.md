@@ -29,3 +29,4 @@ An Android app that lets users browse and explore various food recipes. Built wi
 ## 📦 API Used
 
 - Base URL:  www.themealdb.com/api/json/v1/1/
+- full UEL: https://www.themealdb.com/api/json/v1/1/categories.php
