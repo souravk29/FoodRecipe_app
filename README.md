@@ -30,3 +30,16 @@ An Android app that lets users browse and explore various food recipes. Built wi
 
 - Base URL:  www.themealdb.com/api/json/v1/1/
 - URL: https://www.themealdb.com/api/json/v1/1/categories.php
+
+
+
+
+
+
+
+
+
+
+
+![Kotlin](https://img.shields.io/badge/Language-Kotlin-orange)
+
