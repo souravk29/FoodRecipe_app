@@ -1,14 +1,22 @@
-# === Android ===
-.gradle/
-local.properties
-*.iml
+# === Android Studio / IntelliJ ===
 .idea/
+*.iml
+*.iws
+*.ipr
+
+# === Build outputs ===
 build/
+.gradle/
 captures/
-.externalNativeBuild
+output.json
 .cxx/
-*.apk
-*.ap_
+
+# === Gradle ===
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+**/build/
+**/bin/
+!gradle-wrapper.properties
 
 # === Kotlin ===
 *.class
@@ -18,11 +26,37 @@ captures/
 
 # === Firebase ===
 .firebase/
-.firebaserc
 .firebase-debug.log
+.firebaserc
+
+# === Local configuration ===
+local.properties
+*.keystore
+*.jks
+*.env
 
 # === OS-specific ===
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
 # Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Logs and crash reports ===
+*.log
+crashlytics-build.properties
+
+# === Jetpack Compose Preview Cache ===
+*.pb
+.idea/markdown-navigator/
+
+# === Others ===
+*.swp
+*.swo
+*.orig
+*.bak
+*.tmp
