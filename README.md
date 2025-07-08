@@ -83,10 +83,13 @@ interface ApiService {
 ## ✅ Future Improvements
 
 🔍 Add search and filter capabilities
+
 🌐 Add localization support
+
 💾 Add offline caching using Room
+
 💡 Add error and loading states
-🚀 Add Compose UI migration (if still using XML)
+
 
 ---
 ## 📄 License
