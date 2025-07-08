@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("kotlin-parcelize")
 }
 
 android {
@@ -53,9 +54,15 @@ dependencies {
     // Image loading
     implementation(libs.coil.compose)
 
-    implementation ("androidx.compose.foundation:foundation:1.6.1" )
+    // for navigation
+    implementation(libs.androidx.navigation.compose)
+
+    implementation ("androidx.compose.foundation:foundation:1.6.1" )// or latest
 
     implementation("com.airbnb.android:lottie-compose:6.1.0")
+
+
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
