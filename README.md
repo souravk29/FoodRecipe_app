@@ -51,13 +51,15 @@ An Android app that lets users browse and explore various food recipes. Built wi
 ├── Screen.kt                     # Navigation route definitions
 
 
-🚀 How to Run
+##🚀 How to Run
 Clone this repository:
 
 bash
 Copy
 Edit
 git clone https://github.com/your-username/your-repo-name.git
+
+
 Open the project in Android Studio.
 
 Make sure you have the following:
@@ -70,39 +72,26 @@ Android SDK version configured correctly
 
 Run the app on an emulator or physical device.
 
-🔗 Retrofit Integration (Example)
-kotlin
-Copy
-Edit
+##🔗 Retrofit Integration
+
 interface ApiService {
     @GET("categories.php")
     suspend fun getCategories(): Response<CategoryResponse>
 }
 
 
-🖼️ Screenshots
-<!-- Add your own screenshots inside a /screenshots folder -->
-scss
-Copy
-Edit
-![Home Screen](screenshots/home_screen.png)
-![Category Detail Screen](screenshots/detail_screen.png)
+##✅ Future Improvements
 
-✅ Future Improvements
 🔍 Add search and filter capabilities
-
 🌐 Add localization support
-
 💾 Add offline caching using Room
-
 💡 Add error and loading states
-
 🚀 Add Compose UI migration (if still using XML)
 
-📄 License
+##📄 License
 This project is open-source and available under the MIT License.
 
-🤝 Contributing
+##🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to fork the repo and submit a pull request.
 Let’s build something delicious together! 😋
