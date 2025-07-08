@@ -39,7 +39,7 @@ An Android app that lets users browse and explore various food recipes. Built wi
 
 ## 📁 Project Structure
 
-```plaintext
+
 ├── AndroidManifest.xml           # App manifest and permissions
 ├── ApiService.kt                 # Retrofit API service definition
 ├── Category.kt                   # Data class representing a recipe category
@@ -50,8 +50,8 @@ An Android app that lets users browse and explore various food recipes. Built wi
 ├── RecipeScreen.kt               # Home screen showing list of categories
 ├── Screen.kt                     # Navigation route definitions
 
-
 ## 🚀 How to Run
+
 Clone this repository:
 
 bash
