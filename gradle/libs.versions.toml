@@ -10,12 +10,14 @@ lifecycleRuntimeKtx = "2.9.1"
 activityCompose = "1.10.1"
 composeBom = "2025.06.01"
 lottieCompose = "6.1.0"
+navigationCompose = "2.9.1"
 retrofit = "2.9.0"
 converterGson = "2.9.0"
 
 
 [libraries]
 
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 compose-ui = { module = "androidx.compose.ui:ui", version = "1.6.1" }
 compose-foundation = { module = "androidx.compose.foundation:foundation", version = "1.6.1" }
 
@@ -43,5 +45,4 @@ retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-
 
