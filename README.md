@@ -50,13 +50,12 @@ An Android app that lets users browse and explore various food recipes. Built wi
 ├── RecipeScreen.kt               # Home screen showing list of categories
 ├── Screen.kt                     # Navigation route definitions
 
+---
+
 ## 🚀 How to Run
 
 Clone this repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/your-repo-name.git
 
 
@@ -72,6 +71,7 @@ Android SDK version configured correctly
 
 Run the app on an emulator or physical device.
 
+---
 ## 🔗 Retrofit Integration
 
 interface ApiService {
@@ -79,7 +79,7 @@ interface ApiService {
     suspend fun getCategories(): Response<CategoryResponse>
 }
 
-
+---
 ## ✅ Future Improvements
 
 🔍 Add search and filter capabilities
@@ -88,9 +88,11 @@ interface ApiService {
 💡 Add error and loading states
 🚀 Add Compose UI migration (if still using XML)
 
+---
 ## 📄 License
 This project is open-source and available under the MIT License.
 
+---
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to fork the repo and submit a pull request.
