@@ -57,7 +57,7 @@ dependencies {
     // for navigation
     implementation(libs.androidx.navigation.compose)
 
-    implementation ("androidx.compose.foundation:foundation:1.6.1" )// or latest
+    implementation ("androidx.compose.foundation:foundation:1.6.1" )
 
     implementation("com.airbnb.android:lottie-compose:6.1.0")
 
