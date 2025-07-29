@@ -54,10 +54,7 @@ An Android app that lets users browse and explore various food recipes. Built wi
 
 ## 🚀 How to Run
 
-Clone this repository:
-
-git clone https://github.com/your-username/your-repo-name.git
-
+Clone this repository.
 
 Open the project in Android Studio.
 
