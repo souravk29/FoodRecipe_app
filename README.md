@@ -41,13 +41,21 @@ An Android app that lets users browse and explore various food recipes. Built wi
 
 
 ├── AndroidManifest.xml           # App manifest and permissions
+
 ├── ApiService.kt                 # Retrofit API service definition
+
 ├── Category.kt                   # Data class representing a recipe category
+
 ├── CategoryDetailScreen.kt       # UI for showing category details
+
 ├── MainActivity.kt               # Entry activity hosting the navigation
+
 ├── MainViewModel.kt              # ViewModel containing app logic and API calls
+
 ├── RecipeApp.kt                  # Application root with NavHost setup
+
 ├── RecipeScreen.kt               # Home screen showing list of categories
+
 ├── Screen.kt                     # Navigation route definitions
 
 ---
