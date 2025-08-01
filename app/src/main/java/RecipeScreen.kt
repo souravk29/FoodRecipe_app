@@ -47,7 +47,7 @@ fun RecipeScreen(modifier: Modifier = Modifier,
 {
 
     val composition by rememberLottieComposition(
-        LottieCompositionSpec.RawRes(R.raw.loading_anim) // make sure you have this JSON in res/raw
+        LottieCompositionSpec.RawRes(R.raw.loading_anim)                                   // have this JSON in res/raw
     )
 
 
@@ -97,7 +97,7 @@ fun CategoryScreen( categories : List<Category> ,
     )
     LazyVerticalStaggeredGrid(
 
-        columns = StaggeredGridCells.Fixed(2), // or Adaptive(minSize)
+        columns = StaggeredGridCells.Fixed(2),                                                
         modifier = Modifier.fillMaxSize(),
         contentPadding = PaddingValues(8.dp),
         verticalItemSpacing = 2.dp,
