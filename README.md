@@ -62,7 +62,11 @@ An Android app that lets users browse and explore various food recipes. Built wi
 
 ## 🚀 How to Run
 
-Clone this repository.
+Clone this repository:
+```bash
+git clone https://github.com/souravk29/FoodRecipe_app.git
+cd FoodRecipe_app
+```
 
 Open the project in Android Studio.
 
@@ -104,4 +108,9 @@ This project is open-source and available under the MIT License
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to fork the repo and submit a pull request.
+
+**Note:** This repository uses `main` as the default branch. Please target your pull requests to the `main` branch.
+
+For more information about branch configuration, see [Branch Configuration Guide](docs/BRANCH_CONFIGURATION.md).
+
 Let’s build something delicious together! 😋
