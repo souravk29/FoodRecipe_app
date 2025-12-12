@@ -6,7 +6,7 @@ An Android app that lets users browse and explore various food recipes. Built wi
 
 ---
 
-<img src="screenshots/Screenshot 2025-07-03 223836.png" width=250 />  <img src = "screenshots/Screenshot 2025-07-08 140736.png" width = 245 />
+<img src="screenshots/Screenshot 2025-07-03 223836.png" width=250 />  <img src = "screenshots/Screenshot 2025-07-08 140736.png" width = 243 />
 
 
 ## 📱 Features
