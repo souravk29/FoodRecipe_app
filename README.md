@@ -6,6 +6,9 @@ An Android app that lets users browse and explore various food recipes. Built wi
 
 ---
 
+<img src="screenshots/Screenshot 2025-07-03 223836.png" width=250 />
+
+
 ## 📱 Features
 
 - 🍽️ Browse random and category-based meals  
